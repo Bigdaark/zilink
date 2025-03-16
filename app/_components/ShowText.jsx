@@ -7,7 +7,7 @@ export default function AnimatedText() {
   return (
     <div className="flex justify-center items-center">
       <motion.h1
-        className="text-2xl md:text-4xl font-bold text-gray-300 leading-relaxed"
+        className="text-xl md:text-4xl font-bold text-gray-300 leading-relaxed"
         dir="rtl"
       >
         {sentence.split(" ").map((word, index) => (
