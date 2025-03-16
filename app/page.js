@@ -95,20 +95,20 @@ export default function Page() {
 
       <section className="flex flex-col items-center mt-5">
         <h3 className="mt-10 text-lg">کانال ما در پیام رسان ها</h3>
-        <div className="flex gap-4 mt-3">
+        <div className="flex gap-4 mt-5">
           <Link
             href="https://www.instagram.com/hami.hotel?igsh=ZzNjemdjbjdxaGhs"
             target="_blank"
-            className="bg-white p-1 rounded-full"
+            className="bg-slate-200 p-1 md:p-2 rounded-full"
           >
-            <FaInstagram className="text-pink-500" />
+            <FaInstagram className="text-pink-500 text-base md:text-lg" />
           </Link>
           <Link
             href="https://t.me/Hami_hotel"
             target="_blank"
-            className="bg-white p-1 rounded-full"
+            className="bg-slate-200 p-1 md:p-2 rounded-full"
           >
-            <FaTelegramPlane className="text-blue-500" />
+            <FaTelegramPlane className="text-blue-500 text-base md:text-lg" />
           </Link>
         </div>
       </section>
