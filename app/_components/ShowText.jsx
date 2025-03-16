@@ -6,7 +6,7 @@ const sentence = "حامی تیم، گروه تخصصی رزرو هتل";
 export default function AnimatedText() {
   return (
     <div className="flex justify-center items-center">
-      <motion.h1 className="text-2xl md:text-4xl font-bold text-gray-300 whitespace-nowrap" dir="rtl">
+      <motion.h1 className="text-2xl md:text-4xl font-bold text-gray-300" dir="rtl">
         {Array.from(sentence).map((char, index) => (
           <motion.span
             key={index}
