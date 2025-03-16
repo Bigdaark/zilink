@@ -34,51 +34,61 @@ export default function Page() {
         <AnimatedText />
         <div className="mt-8 flex flex-col gap-5 w-full md:w-150 px-4 sm:px-8 md:px-16">
           <AnimatedBox>
-            <div className="flex justify-between items-center w-full">
-              <div className="flex items-center gap-2">
-                <FiPhone className="text-lg md:text-xl" />
-                <p className="text-xs md:text-sm">پاسخگویی از 9 صبح تا 9 شب</p>
+            <a href="tel:05191690169" className="block w-full">
+              <div className="flex justify-between items-center w-full">
+                <div className="flex items-center gap-2">
+                  <FiPhone className="text-lg md:text-xl" />
+                  <p className="text-xs md:text-sm">
+                    پاسخگویی از 9 صبح تا 9 شب
+                  </p>
+                </div>
+                <p className="text-sm md:text-base">
+                  {formatToPersian("05191690169")}
+                </p>
               </div>
-              <p className="text-sm md:text-base">
-                {formatToPersian("05191690169")}
-              </p>
-            </div>
+            </a>
           </AnimatedBox>
 
           <AnimatedBox>
-            <div className="flex justify-between items-center w-full">
-              <div className="flex items-center gap-2">
-                <FiSmartphone className="text-lg md:text-xl" />
-                <p className="text-xs md:text-sm">آقای مددی</p>
+            <a href="tel:09353160169" className="block w-full">
+              <div className="flex justify-between items-center w-full">
+                <div className="flex items-center gap-2">
+                  <FiSmartphone className="text-lg md:text-xl" />
+                  <p className="text-xs md:text-sm">آقای مددی</p>
+                </div>
+                <p className="text-sm md:text-base">
+                  {formatToPersian("09353160169")}
+                </p>
               </div>
-              <p className="text-sm md:text-base">
-                {formatToPersian("09353160169")}
-              </p>
-            </div>
+            </a>
           </AnimatedBox>
 
           <AnimatedBox>
-            <div className="flex justify-between items-center w-full">
-              <div className="flex items-center gap-2">
-                <FiSmartphone className="text-lg md:text-xl" />
-                <p className="text-xs md:text-sm">خانم عربی</p>
+            <a href="tel:09351630169" className="block w-full">
+              <div className="flex justify-between items-center w-full">
+                <div className="flex items-center gap-2">
+                  <FiSmartphone className="text-lg md:text-xl" />
+                  <p className="text-xs md:text-sm">خانم عربی</p>
+                </div>
+                <p className="text-sm md:text-base">
+                  {formatToPersian("09351630169")}
+                </p>
               </div>
-              <p className="text-sm md:text-base">
-                {formatToPersian("09353160169")}
-              </p>
-            </div>
+            </a>
           </AnimatedBox>
 
           <AnimatedBox>
-            <div className="flex justify-between items-center w-full">
-              <div className="flex items-center gap-2">
-                <FiMessageCircle className="text-lg md:text-xl" />
-                <p className="text-xs md:text-sm">ارتباط با مدیریت</p>
+            <a href="tel:09150100898" className="block w-full">
+              <div className="flex justify-between items-center w-full">
+                <div className="flex items-center gap-2">
+                  <FiMessageCircle className="text-lg md:text-xl" />
+                  <p className="text-xs md:text-sm">ارتباط با مدیریت</p>
+                </div>
+                <p className="text-sm md:text-base">
+                  {formatToPersian("09150100898")}
+                </p>
               </div>
-              <p className="text-sm md:text-base">
-                {formatToPersian("09150100898")}
-              </p>
-            </div>
+            </a>
           </AnimatedBox>
         </div>
       </section>
