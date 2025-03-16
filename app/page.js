@@ -150,13 +150,15 @@ export default function Page() {
 
       <section className="mt-10  flex flex-col items-center gap-5">
         <p className="font-bold">خط اصلی شرکت</p>
-        <div className="border text-sky-400 flex items-center justify-between p-3 rounded">
-          <div className="flex w-60 md:w-130 items-center gap-2   ">
-            <FiPhone />
-            <p>( رزرو داخلی شرکت )</p>
+        <a href="tel:05191690169" className="block">
+          <div className="border border-slate-300 text-sky-400 flex items-center justify-between p-3 rounded">
+            <div className="flex w-60 md:w-133 items-center gap-2">
+              <FiPhone />
+              <p>( رزرو داخلی شرکت )</p>
+            </div>
+            <p>{formatToPersian("05191690169")}</p>
           </div>
-          <p>{formatToPersian("05191690169")}</p>
-        </div>
+        </a>
       </section>
     </div>
   )
